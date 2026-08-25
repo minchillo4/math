@@ -1,0 +1,15 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "jupyter": {
+      "type": "local",
+      "command": ["uvx", "jupyter-mcp-server@latest"],
+      "enabled": true,
+      "environment": {
+        "JUPYTER_URL": "http://localhost:8888",
+        "JUPYTER_TOKEN": "{env:MATH_JUPYTER_TOKEN}",
+        "ALLOW_IMG_OUTPUT": "true"
+      }
+    }
+  }
+}
