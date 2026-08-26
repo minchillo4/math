@@ -4,8 +4,7 @@ Following Strang, G. (2023). *Introduction to Linear Algebra* (6th ed.). Wellesl
 
 ## Structure
 
-- One notebook per book section (`0X_chapter_name/0Y_section_name.ipynb`).
-- Each notebook follows a fixed 6-step template per concept: **Concept → Notation → Worked example → Code → Visualization → Key question**.
+- One notebook per book section (`chapter_number`/0Y_section_name.ipynb`).
 - NumPy is not a separate track. Code that translates a mathematical statement lives inline, next to that statement; generic Python/NumPy mechanics with no linear-algebra meaning stay out of the notebooks.
 - Shared matplotlib visualizations live in `src/math_study/plotting/vectors.py` (installed as the editable `math_study` package), so they aren't copy-pasted across notebooks. Import with:
 
@@ -53,6 +52,3 @@ Following Strang, G. (2023). *Introduction to Linear Algebra* (6th ed.). Wellesl
 ### Chapter 6 — Eigenvalues and Eigenvectors
 - [ ] 6.1 – 6.5
 
-## Tools
-
-- `math_study.plotting.vectors` — shared 2D vector plotting functions (`plot_vectors_2d`, `plot_vector_addition`, `plot_scalar_multiplication`, `plot_span_2d`). Source: `src/math_study/plotting/vectors.py`.
