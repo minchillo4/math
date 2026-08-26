@@ -1,5 +1,6 @@
 """Shared plotting helpers for all math-study notebooks."""
 
+from math_study.plotting.limits import plot_secant_slope
 from math_study.plotting.systems import plot_lines
 from math_study.plotting.three_d import plot_plane_span_3d, plot_vectors_3d
 from math_study.plotting.vectors import (
@@ -10,6 +11,7 @@ from math_study.plotting.vectors import (
 )
 
 __all__ = [
+    "plot_secant_slope",
     "plot_vectors_2d",
     "plot_vector_addition",
     "plot_scalar_multiplication",

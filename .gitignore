@@ -13,3 +13,7 @@ build/
 
 # Manim build artifacts (scratch output inside notebooks; sources live in videos/)
 notebooks/probability/manim/
+
+# Jupyter server runtime state
+notebooks/.jupyter/
+notebooks/.jupyter_ystore.db
